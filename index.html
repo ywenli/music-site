@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1. 0">
+    <title>Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="swiper/swiper.min.css">
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <script src="swiper/swiper.min.js"></script>
+
+    <!-- swiper cdn link
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/ libs/Swiper/4.3.3/css/swiper.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/ js/swiper.min.js"></script>
+    -->
+  </head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-main">
+        <div class="logo">
+          <div class="logo-main"><img src="images/logo.svg" alt="ロゴ画像" >
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">登録する</a></li>
+            <li><a href="">ログイン</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="swiper">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide01">
+          <div class="slide-contents">
+            <div class="slide-contents-title">
+              あなただけの1曲を。<br>
+            </div>
+            <div class="slide-contents-text">
+              世界中の楽曲をチェック。<br>
+              あの音楽が見つかる。<br>
+            </div> <!--slide-contents -->
+          </div> <!-- swiper-slide -->
+        </div>
+
+        <div class="swiper-slide slide02">
+          <div class="slide-contents">
+            <div class="slide-contents-title">
+              音楽を共有しよう。<br>
+            </div>
+            <div class="slide-contents-text">
+              気に入った楽曲をSNSで簡単にシェアできます。<br>
+              シェアを通して新しい音楽と出会おう。<br>
+            </div>
+          </div> <!-- slide-contents -->
+        </div> <!-- swiper-slide -->
+      </div> <!-- swiper-wrapper -->
+
+      <div class="swiper-button">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div> <!-- swiper-button -->
+
+      <div class="swiper-pagination"></div>
+    </div> <!-- swiper-container -->
+  </section> <!-- swiper -->
+
+    <section class="free-section-01">
+      <div class="container">
+        <div class="free-title">
+          音楽の楽しさを簡単に。
+        </div>
+        <div class="free-text">
+          厳選された音楽から聴きたい曲が見つかる。<br>
+          最新楽曲情報をすぐさまチェック<br>
+          音楽イベント情報を配信。
+        </div>
+      </div><!--container -->
+    </section><!-- free-section-01 -->
+
+    <section class="free-section-02">
+      <div class="container">
+        <div class="free-title">
+          求めていた音楽が見つかる
+        </div>
+        <div class="free-text">
+          数千万の楽曲からあなたに合った曲を見つけられます。<br>
+          曲名がわからなくても、歌詞のフレーズや曲の特徴で検索できます。<br>
+          ライブ版、リミックス版など、様々な種類の曲を楽しめます。
+        </div>
+      </div><!--container -->
+    </section><!-- free-section-02 -->
+
+    <section class="free-section-03">
+      <div class="container">
+        <div class="contents-main">
+          <div class="contents-text">
+            新⁠し⁠い⁠音⁠楽⁠の⁠世⁠界⁠をあなたの為に。<br>
+            高品質な音⁠楽⁠を見⁠つ⁠け⁠ま⁠し⁠ょ⁠う⁠。<br>
+            音楽の楽しさをあなたの手に。
+          </div><!-- contents-text -->
+          <div class="contents-button">
+            <button>
+              使ってみる
+            </button>
+          </div><!-- contents-button -->
+        </div><!-- contents-main -->
+      </div><!-- container -->
+    </section>
+
+    <footer>
+      <div class="container">
+        <nav>
+          <div class="footer-nav-01">
+            <h3 class="footer-nav-title">製品情報</h3>
+            <ul>
+              <li><a href="">アプリ</a></li>
+              <li><a href="">アクセサリ</a></li>
+            </ul>
+          </div><!-- footer-nav-01 -->
+
+          <div class="footer-nav-02">
+            <h3 class="footer-nav-title">店舗</h3>
+            <ul>
+              <li><a href="">日本</a></li>
+              <li><a href="">海外</a></li>
+            </ul>
+          </div><!-- footer-nav-02 -->
+
+          <div class="footer-nav-03">
+            <ul>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+            </ul>
+          </div><!--footer-nav-o3 -->
+
+        </nav>
+        <div class="footer-bottom">
+          <div class="copyright">©︎ copyright music</div>
+        </div><!-- footer-bottom -->
+        
+      </div><!-- container -->
+    </footer>
+
+    <script type="text/javascript">
+      var swiper = new Swiper('.swiper-container', {
+        speed: 1000, // スピード設定 1000=1秒
+        autoplay: true, // 自動切り替え trueで有効 falseで無
+        loop: true, // ループ trueで有効 falseで無効
+        navigation: {
+          nextEl: '.swiper-button-next', // 次のボタンを表示する要素指定
+          prevEl: '.swiper-button-prev' // 前のボタンを表示する要素指定
+        },
+        pagination: {
+          el: '.swiper-pagination', // ページネーションを表示する要素指定
+        }
+      });
+    </script>
+
+</body>
+</html>
